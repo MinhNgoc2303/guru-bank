@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NgocTest]" parallel="tests">
+  <test thread-count="5" name="TestWithFF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="0.21.0"/>
+    <parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.bankguru.scripts.EditCustomerScript">
+        <methods>
+          <include name="EC04_ValidCustomerId"/>
+          <include name="EC13_StateWithNumeric"/>
+          <include name="BeforeClass"/>
+          <include name="EC10_CityNotNumberic"/>
+          <include name="EC08_AddressIsEmpty"/>
+          <include name="EC21_EmailEmpty"/>
+          <include name="AfterClass"/>
+          <include name="EC19_TelephoneWithEmpty"/>
+          <include name="EC11_CityCannotHaveSpecialCharacter"/>
+          <include name="EC20_TelephoneWithSpecialCharacter"/>
+          <include name="EC14_StateFieldWithSpecialCharacter"/>
+          <include name="EC15_PINMustBeNumeric"/>
+          <include name="EC22_EmailWithInvalidFormat"/>
+          <include name="EC12_StateFieldEmpty"/>
+          <include name="EC16_PINFieldEmpty"/>
+          <include name="BeforeMethod"/>
+          <include name="EC17_PINMustHave6Digits"/>
+          <include name="EC09_CityIsEmpty"/>
+          <include name="EC18_PINWithSpecialCharacter"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.EditCustomerScript -->
+    </classes>
+  </test> <!-- TestWithFF(failed) -->
+  <test thread-count="5" name="TestWithChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="76.0.3809.68"/>
+    <parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.bankguru.scripts.NewCustomerScript">
+        <methods>
+          <include name="NC30_CreateNewCustomer"/>
+          <include name="BeforeMethod"/>
+          <include name="BeforeClass"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.NewCustomerScript -->
+      <class name="com.bankguru.scripts.EditCustomerScript">
+        <methods>
+          <include name="EC04_ValidCustomerId"/>
+          <include name="EC13_StateWithNumeric"/>
+          <include name="BeforeClass"/>
+          <include name="EC10_CityNotNumberic"/>
+          <include name="EC08_AddressIsEmpty"/>
+          <include name="EC21_EmailEmpty"/>
+          <include name="AfterClass"/>
+          <include name="EC19_TelephoneWithEmpty"/>
+          <include name="EC11_CityCannotHaveSpecialCharacter"/>
+          <include name="EC20_TelephoneWithSpecialCharacter"/>
+          <include name="EC14_StateFieldWithSpecialCharacter"/>
+          <include name="EC15_PINMustBeNumeric"/>
+          <include name="EC22_EmailWithInvalidFormat"/>
+          <include name="EC12_StateFieldEmpty"/>
+          <include name="EC16_PINFieldEmpty"/>
+          <include name="BeforeMethod"/>
+          <include name="EC17_PINMustHave6Digits"/>
+          <include name="EC09_CityIsEmpty"/>
+          <include name="EC18_PINWithSpecialCharacter"/>
+        </methods>
+      </class> <!-- com.bankguru.scripts.EditCustomerScript -->
+    </classes>
+  </test> <!-- TestWithChrome(failed) -->
+</suite> <!-- Failed suite [NgocTest] -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10136" started-at="2019-09-10T14:30:35Z" finished-at="2019-09-10T14:30:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10136" started-at="2019-09-10T14:30:35Z" finished-at="2019-09-10T14:30:45Z">
+      <class name="demo.extendreport.ExtendReport">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="beforeTest" is-config="true" duration-ms="9207" started-at="2019-09-10T14:30:35Z" finished-at="2019-09-10T14:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="TC_01" duration-ms="12" started-at="2019-09-10T14:30:44Z" finished-at="2019-09-10T14:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="afterMethod" is-config="true" duration-ms="8" started-at="2019-09-10T14:30:44Z" finished-at="2019-09-10T14:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01 status=SUCCESS method=ExtendReport.TC_01()[pri:0, instance:demo.extendreport.ExtendReport@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_02()[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="TC_02" duration-ms="6" started-at="2019-09-10T14:30:44Z" finished-at="2019-09-10T14:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="afterClass" is-config="true" duration-ms="885" started-at="2019-09-10T14:30:44Z" finished-at="2019-09-10T14:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.extendreport.ExtendReport@548e7350]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-09-10T14:30:44Z" finished-at="2019-09-10T14:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02 status=SUCCESS method=ExtendReport.TC_02()[pri:0, instance:demo.extendreport.ExtendReport@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- demo.extendreport.ExtendReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
